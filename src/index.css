@@ -1,0 +1,78 @@
+body {
+ margin: 0;
+padding: 0; 
+/* background-color: lightcyan; */
+ display: flex;
+justify-content: center; 
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 8s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.web{
+  text-align: center;
+font-family: 'Lumanosimo', cursive;
+}
+
+
+.box{
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lavenderblush;
+   height: 540px;
+  width: 350px; 
+  border-radius: 90px;
+}
+.a1 input{
+  text-align: center;
+  border-radius: 40px;
+  width: 250px;
+  height: 30px;
+}
+.a2{
+  font-family: 'Lumanosimo', cursive;
+  text-align: center;
+}
+.a3{
+  font-family: 'Lumanosimo', cursive;
+  text-align: center;
+}
+ .a4{
+font-size: small;
+  font-family: 'Lumanosimo', cursive;
+text-align: center;
+} 
+footer{
+  font-family: sans-serif;
+}
+
+/* @media screen and (min-width: 375px){
+  .box{
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  }
+} */
+ .bb{
+  height: 70px;
+  width: 70px;
+} 
+.a1 div {
+display: flex;
+justify-content: center;
+align-items: center;
+}
